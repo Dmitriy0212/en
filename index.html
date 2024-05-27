@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            max-width: 1200px;
+            margin: 0px auto;
+        }
+
+        .content {
+            display: flex;
+            width: 90%;
+            height: 422px;
+            margin: 0 auto;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cod_fild {
+            display: flex;
+            margin-top: 100px;
+            height: 204px;
+            flex-direction: column;
+            align-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .cod {
+            font-family: Segoe UI;
+            font-size: 85px;
+            font-weight: 700;
+            line-height: 29.26px;
+            text-align: center;
+            color: #656363;
+        }
+
+        .link_fild {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .h1 {
+            font-family: Segoe UI;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 29.26px;
+            text-align: center;
+            color: #656363;
+        }
+
+        .validonly {
+            font-family: Segoe UI;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 29.26px;
+            text-align: center;
+            color: #6db2fa;
+        }
+
+        .links {
+            text-decoration: none;
+            color: #4C4C4C;
+            font-family: Segoe UI;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 15.96px;
+            text-align: center;
+
+        }
+        .footer {
+            text-decoration: none;
+            color: #4C4C4C;
+            font-family: Segoe UI;
+            font-size: 12px;
+            line-height: 15.96px;
+            text-align: center;
+            margin-top: 30px;
+
+        }
+
+        .links:hover {
+            text-decoration: underline 2px;
+            text-decoration-color: #6db2fa;
+        }
+
+        @media (max-width: 550px) {
+            .link_fild {
+                flex-direction: column;
+            }
+
+            .content {
+                height: fit-content;
+            }
+
+            .validonly {
+                font-size: 10px;
+            }
+            .h1 {
+                font-size: 10px;
+            }
+        }
+
+        a {
+            text-decoration: none;
+        }
+        .img1{
+            width: 10%;
+        }
+        .img2{
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="cod_fild">
+            <div class="logo">
+                <a target="_blank" href="https://www.yourpricebooking.com/ru" class="logo_link">
+                    <div>
+                        <img class="img1" src="./Хидер отелера.svg" alt="">
+                        <img class="img2" src="./YOUR PRICE BOOKING.svg" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="h1">
+                Your confirmation code
+            </div>
+            <div class="cod">1234</div>
+            <div class="validonly">
+                Attention code valid only 3 minutes
+            </div>
+        </div>
+        <div class="link_fild">
+            <a class="links" target="_blank" href="https://www.yourpricebooking.com/en/support">Support</a>
+            <a class="links" target="_blank" href="https://www.instagram.com/yourpricebooking/">We are on Instagram</a>
+            <a class="links" target="_blank" href="https://twitter.com/PriceBooking">We are on X</a>
+            <a class="links" target="_blank" href="https://www.reddit.com/r/YourPriceBooking/">We are on Reddit</a>
+        </div>
+        <div class="link_fild"> <a class="links" href="https://www.youtube.com/channel/UCBhywVgi7MclKBN9Q4fn-ww">We are
+                on You Tube</a>
+            <a class="links" target="_blank" href="https://www.tiktok.com/@yourpricebookingd">We are on Tik Tok</a>
+            <a class="links" target="_blank" href="https://www.linkedin.com/company/your-price-booking">We are on
+                LinkedIn</a>
+            <a class="links" target="_blank" href="https://www.thewandered.com/">Official blog</a>
+        </div>
+        <div class="footer">Your Price Booking OÜ, Harju maakond, Tallinn, Kesklinna linnaosa, Veskiposti tn 2-1002, 10138</div>
+    </div>
+</body>
+
+</html>
